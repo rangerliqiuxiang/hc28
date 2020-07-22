@@ -1,0 +1,45 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote, th, td, p, iframe {
+    margin:0;
+    padding:0
+}
+input, button, select, textarea {
+    outline:none
+}
+li {
+    list-style:none
+}
+img {
+    border:none
+}
+textarea {
+    resize:none
+}
+body {
+    color:#202020;
+    word-break:break-word;
+    word-wrap:break-word
+}
+body, input, textarea {
+    font-size:12px;
+    font-family:GothamBook, Microsoft YaHei
+}
+i, em {
+    font-style:normal
+}
+a {
+    color:#202020;
+    text-decoration:none;
+    outline:none
+}
+a:hover {
+    color:#000
+}
+body {
+    position:relative;
+    background-color:#fff;
+    overflow-x:hidden;
+    overflow-y:auto;
+    min-width:320px;
+    width:100%;
+}
